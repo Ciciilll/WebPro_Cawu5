@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.index-body{
+    background-color: rgb(231, 231, 231);
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.register-body{
+    background-color: rgb(194, 246, 244);
+    height: 100vh;
+    width: 100vw;
+    text-align: left;
+    padding: 50px 0px;
+}
+
+.index-body h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.index-body a{
+    color: black;
+}
+
+.index-menu-login{
+    background-color: rgb(131, 174, 255);
+    padding: 15px 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.index-menu-register{
+    background-color: rgb(167, 221, 162);
+    padding: 15px 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.register-body p{
+    font-size: 30px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.register-body td{
+    padding: 8px 5px;
+    vertical-align: top;
+}
+
+.register-body table{
+    margin: 50px auto;
+}
+
+.register-body input{
+    border-style: none;
+    padding: 4px 0px;
+    width: 200px;
+}
+
+.kembali-button{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(224, 215, 79);
+    border-radius: 6px;
+    box-shadow: 0px 5px rgba(88, 88, 88, 0.164);
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.register-body a{
+    padding: 2px 20px;
+}
+
+.register-button{
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(119, 226, 119);
+    border-radius: 6px;
+    box-shadow: 0px 5px rgba(88, 88, 88, 0.164);
+    z-index: 2;
+    margin-top: 20px;
+    font-size: 16px;
+} 
+
+/* login */
+
+.login-body{
+    background-color: rgb(255, 255, 180);
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 0px auto;
+}
+
+.login-body table{
+    margin: 0px auto;
+}
+
+.login-body form{
+    background-color: rgb(145, 194, 240);
+    padding: 20px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.login-body td{
+    padding: 8px 0px;
+}
+
+.login-body .input-form{
+    border-width: 0px;
+    width: 240px;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.back-button{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    background-color: rgb(255, 182, 134);
+    border-radius: 4px;
+    box-shadow: 0px 5px rgba(88, 88, 88, 0.164);
+    font-size: 16px;
+    margin: 0px 10px;
+    padding: 4px 20px;
+}
+
+.login-button{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    background-color: rgb(129, 238, 125);
+    border-radius: 4px;
+    box-shadow: 0px 5px rgba(88, 88, 88, 0.164);
+    font-size: 16px;
+    margin: 0px 10px;
+    border: none;
+    padding: 4px 20px;
+}
+
+.login-buttons{
+    margin: 20px 0px;
+}
+
+.home-body .navbar{
+    background-color: rgb(236, 236, 161);
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.home-body .active{
+    font-weight: 900;
+}
+
+.home-body .home-menu a{
+    padding: 10px;
+}
+
+.home-content{
+    background-color: rgb(195, 176, 240);
+    height: 92vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.home-content p{
+    padding-top: 150px;
+}
+
+.home-content h3{
+    padding: 40px;
+}
+
+.home-content table{
+    margin: 0px auto;
+    text-align: left;
+}
+
+.home-content table td{
+    padding: 20px 10px;
+    vertical-align: top;
+}
+
+.home-content table td b{
+    padding-right: 30px;
+}
+
+.profile-image img{
+    height: 100px;
+    width: auto;
+}
